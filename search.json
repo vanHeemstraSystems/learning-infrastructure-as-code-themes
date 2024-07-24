@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "terraform.html",
+    "href": "terraform.html",
+    "title": "Terraform",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Terraform on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "terraform.html#find-the-opportunities.",
+    "href": "terraform.html#find-the-opportunities.",
+    "title": "Terraform",
+    "section": "2. Find the Opportunities.",
+    "text": "2. Find the Opportunities.\nSee Learning Terraform\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+  },
+  {
+    "objectID": "SUMMARY.html",
+    "href": "SUMMARY.html",
+    "title": "Table of contents",
+    "section": "",
+    "text": "Table of contents\n\nLearning Infrastructure-as-Code - Themes"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "ansible.html",
+    "href": "ansible.html",
+    "title": "Ansible",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Ansible on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "ansible.html#find-the-opportunities.",
+    "href": "ansible.html#find-the-opportunities.",
+    "title": "Ansible",
+    "section": "2. Find the Opportunities.",
+    "text": "2. Find the Opportunities.\nSee Learning Ansible\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+  },
+  {
+    "objectID": "packer.html",
+    "href": "packer.html",
+    "title": "Packer",
+    "section": "",
+    "text": "About this site\nWe base our Theme: Master Packer on Planning a Minimum Viable Nothing (MVN)."
+  },
+  {
+    "objectID": "packer.html#find-the-opportunities.",
+    "href": "packer.html#find-the-opportunities.",
+    "title": "Packer",
+    "section": "2. Find the Opportunities.",
+    "text": "2. Find the Opportunities.\nSee Learning Packer\n\na) Map out the User Journey(s).\n\n- Identify the Users (Actors) / Persona.\n\n\n- Identify the Story Ending (End Goal)\n\n\n- Identify all Actions the User must take to meet the End Goal.\n\n\n\nb) Create a “Pain and Gain” Map for each Action.\n\n- Write down the Action the User completes when using the Product (i.e., good or service).\n\n\n- Write down the Pain Points for each Action.\n\n\n- Write down the Gains for each Action.\n\n\n\nc) Summarize the Pains and Gains into Opportunity Statements.\n\n- Use “How might we” Statements or a similar method to summarize the Pains and Gains you have identified."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learning Infrastructure-as-Code - Themes",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nimport { renderChart } from \"@trebor/zoomable-voronoi-treemap\"\n\n\n\n\n\n\n\nmd`### Themes`\n\n\n\n\n\n\n\ndata = {\n  const flare = await d3.json(\n    \"https://raw.githubusercontent.com/vanHeemstraSystems/learning-infrastructure-as-code-themes/main/data/themes.json\"\n  );\n  return d3.hierarchy(flare).sum((d) =&gt; (d.children ? 0 : Math.random()));\n}\n\n\n\n\n\n\n\n__topicsChart = {\n  return renderChart({\n    data,\n    size: { width, height: 400 }\n  });\n}\n\n\n\n\n\n\n\nMaster Ansible\nVisit https://github.com/vanHeemstraSystems/learning-ansible\n\n\nMaster Packer\nVisit https://github.com/vanHeemstraSystems/learning-packer\n\n\nMaster Terraform\nVisit https://github.com/vanHeemstraSystems/learning-terraform"
+  }
+]
