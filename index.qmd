@@ -37,7 +37,10 @@ __topicsChart = {
 ```
 
 # Master Ansible
+Visit <https://github.com/vanHeemstraSystems/learning-ansible>
 
 # Master Packer
+Visit <https://github.com/vanHeemstraSystems/learning-packer>
 
 # Master Terraform
+Visit <https://github.com/vanHeemstraSystems/learning-terraform>
